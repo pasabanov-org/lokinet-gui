@@ -3,7 +3,7 @@ import { appLogsSlice } from '../features/appLogsSlice';
 import { statusSlice } from '../features/statusSlice';
 import { uiSlice } from '../features/uiStatusSlice';
 import logger from 'redux-logger';
-import thunkMiddleware from 'redux-thunk';
+import { thunk as thunkMiddleware } from 'redux-thunk';
 
 const sharedMiddlewares = [thunkMiddleware];
 

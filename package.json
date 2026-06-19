@@ -73,8 +73,8 @@
     "@chakra-ui/theme-tools": "2.0.11",
     "@emotion/react": "^11.1.5",
     "@emotion/styled": "^11.1.5",
-    "@reduxjs/toolkit": "^1.5.0",
-    "@types/react": "16.14.0",
+    "@reduxjs/toolkit": "^2.12.0",
+    "@types/react": "^18.2.25",
     "@types/react-dom": "^17.0.1",
     "caniuse-lite": "^1.0.30001421",
     "electron-store": "^8.1.0",
@@ -85,11 +85,26 @@
     "react-dom": "^18.2.0",
     "react-icons": "^4.2.0",
     "react-is": "^18.2.0",
-    "react-redux": "^8.0.2",
+    "react-redux": "^9.3.0",
     "react-use": "^17.4.0",
-    "redux-thunk": "^2.4.1",
+    "redux": "^5.0.1",
+    "redux-thunk": "^3.1.0",
     "styled-components": "^5.3.3",
     "victory": "^36.6.7",
     "zeromq": "6.0.0-beta.6"
+  },
+  "dependenciesMeta": {
+    "electron": {
+      "built": true
+    },
+    "lokinet-gui": {
+      "built": true
+    },
+    "postinstall-postinstall": {
+      "built": true
+    },
+    "zeromq": {
+      "built": true
+    }
   }
 }
