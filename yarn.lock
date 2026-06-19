@@ -8721,6 +8721,7 @@ __metadata:
     framer-motion: "npm:^7.3.6"
     html-webpack-plugin: "npm:^5.1.0"
     lodash: "npm:^4.18.1"
+    node-gyp-build: "npm:^4.8.4"
     patch-package: "npm:^6.4.6"
     postinstall-postinstall: "npm:^2.1.0"
     prettier: "npm:^2.2.1"
@@ -9206,7 +9207,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"node-gyp-build@npm:^4.1.0":
+"node-gyp-build@npm:^4.1.0, node-gyp-build@npm:^4.8.4":
   version: 4.8.4
   resolution: "node-gyp-build@npm:4.8.4"
   bin:
